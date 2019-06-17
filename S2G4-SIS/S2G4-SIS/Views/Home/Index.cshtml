@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<img src="http://cdigs.uwindsor.ca/landing_images/UW_Logo_2L_horz_blk.png" height="300" width="900">
+<div class="jumbotron">
+
+    <h1>Student Information System</h1>
+    <p class="lead"></p>
+    <p></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Students", "Index", "Students")</h2>
+
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Courses", "Index", "Courses")</h2>
+
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Departments", "Index", "Departments")</h2>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Instructors", "Index", "Instructors")</h2>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("Registrations", "Index", "Registrations")</h2>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("StudyTerms", "Index", "StudyTerms")</h2>
+    </div>
+    <div class="col-md-4">
+        <h2>@Html.ActionLink("TeachingAssignments", "Index", "TeachingAssignments")</h2>
+    </div>
+</div>
+<div>
+    <h2>Group member details</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th><h3>Name</h3></th>
+            <th><h3>Student ID</h3></th>
+        </tr>
+        <tr>
+            <td><h4>Sai Satya Kireeti Godavari</h4></td>
+            <td><h4>104919318</h4></td>
+        </tr>
+        <tr>
+            <td><h4>Fiazullah Shaik</h4></td>
+            <td><h4>104930355</h4></td>
+
+        </tr>
+        <tr>
+            <td><h4>Uday Rajan Yerramilli</h4></td>
+            <td><h4>105017857</h4></td>
+
+        </tr>
+        <tr>
+            <td><h4>Parichay Singh</h4></td>
+            <td><h4>104848386</h4></td>
+
+        </tr>
+    </table>
+</div>

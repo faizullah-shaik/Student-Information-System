@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="02e90ed4b00f45a5b9546f61cf758105" Name="Diagram1">
+        <EntityTypeShape EntityType="S2G4_SISDBModel.Courses" Width="1.5" PointX="8.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="S2G4_SISDBModel.Departments" Width="1.5" PointX="4.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="S2G4_SISDBModel.Instructors" Width="1.5" PointX="7.625" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="S2G4_SISDBModel.Registrations" Width="1.5" PointX="1.875" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="S2G4_SISDBModel.Students" Width="1.5" PointX="0.875" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="S2G4_SISDBModel.StudyTerms" Width="1.5" PointX="3" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="S2G4_SISDBModel.TeachingAssignments" Width="1.5" PointX="5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="S2G4_SISDBModel.FK_Courses_Departments" ManuallyRouted="false" />
+        <AssociationConnector Association="S2G4_SISDBModel.FK_Registrations_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="S2G4_SISDBModel.FK_TeachingAssignments_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="S2G4_SISDBModel.FK_TeachingAssignments_Instructors" ManuallyRouted="false" />
+        <AssociationConnector Association="S2G4_SISDBModel.FK_Registrations_Students" ManuallyRouted="false" />
+        <AssociationConnector Association="S2G4_SISDBModel.FK_Registrations_StudyTerms" ManuallyRouted="false" />
+        <AssociationConnector Association="S2G4_SISDBModel.FK_TeachingAssignments_StudyTerms" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
